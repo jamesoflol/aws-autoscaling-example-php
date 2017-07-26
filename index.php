@@ -52,6 +52,14 @@ echo '</p>';
 ?>
 
 </div>
+
+<script type="text/javascript">
+	// Refresh this page in 2 seconds
+	setTimeout(function(){
+		location.reload();
+	}, 2000);
+</script>
+
 </body>
 </html>
 

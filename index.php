@@ -35,7 +35,7 @@ CPU Stress test performed.
 </p>
 <?php
 // CPU stress test
-for($i = 0; $i < 100000000; $i++) {
+for($i = 0; $i < 10000000; $i++) {
      $a += $i;
 }
 ?>

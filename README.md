@@ -1,9 +1,9 @@
-AWS Auto Scaling CPU Stress Test
+AWS Auto Scaling CPU Stress Test (For demo/educational purposes)
 ==============
 
 Simple index.php page, to use for demonstration purposes from within Amazon EC2. Good for use as a demonstration of auto scaling and load balancing in AWS EC2.
 
-On a T2.Nano instance it will take about 1/3 of a second to load the page. This page auto refreshes every 2 seconds, using about 12% CPU on average. (Until [burst credits run out](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html#t2-instances-cpu-credits)!)
+On a T2.Nano instance it will take about 1/3 of a second to load the page. This page auto refreshes every 2 seconds, using about 12% CPU on average, per tab open. (Until [burst credits run out](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html#t2-instances-cpu-credits)!)
 
 Demo steps:
 1. Create and customise AWS EC2 instance: install a web server with PHP, put this index.php code in, set the web server service to autorun, test. 
